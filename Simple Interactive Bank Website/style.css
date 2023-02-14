@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcd0b0;
+}
+#card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10rem;
+    margin-left: 4rem;
+}
+
+
+/******************************************************DEPOSITE******************************************/
+.Deposit-card{
+    height: 150px;
+    width: 400px;
+    background-color: rgba(17, 200, 81, 0.919);
+    border-radius: 10px;
+}
+#all-card h1{
+    text-align: center;
+    font-family: 'poppins';
+    color:white;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+/***********************************************************WITHDRAW***********************************/
+
+.Withdraw-card{
+    height: 150px;
+    width: 400px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+/***********************************************************BALANCE************************************/
+
+.Balance-card{
+    height: 150px;
+    width: 400px;
+    background-color: rgb(0, 238, 255);
+    border-radius: 10px;
+}
+/************************************************ADD*******************************************/
+.ADD-Card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10rem;
+    margin-left: 20rem;
+    gap: 100px;
+}
+.add-income{
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 0 10px black;
+    background-color: rgb(107, 122, 231);
+}
+.add-expense{
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 0 10px black;
+    background-color: rgb(8, 239, 178);
+}
+#add input{
+    width: 300px;
+    height: 35px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+#add h1{
+    position: absolute;
+    width: 400px;
+    margin-left: 2rem;
+ font-size: 30px;
+ font-family: 'poppins';
+}
+/****************************************************button********************************/
+#add-button{
+    margin-left: 7rem;
+    margin-top: 1rem;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/**********************************************AMOUNT************************************/
+.amount{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'poppins';
+}
+
+.amount1{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'poppins';
+}
+.amount2{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'poppins';
+}
